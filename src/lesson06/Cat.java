@@ -13,7 +13,7 @@ public class Cat extends Animal{
             //double roundOff = Math.round(arr[i]*100)/100;
             }
         Random randJump = new Random();
-        this.jump = arr[randJump.nextInt(21)]; // задал максимальную величину прыжка, которая будет варьироваться при создании нового животного
+        this.jump = arr[randJump.nextInt(21)];   // задал максимальную величину прыжка, которая будет варьироваться при создании нового животного
         Random randRun = new Random();
         this.run = randRun.nextInt(200); // максимальная длина бега
         swim = 0;
